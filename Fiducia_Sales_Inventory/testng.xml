@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com_Tyss_Fiducia_GenericUtility"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Automation_User_Fiducia.Generate_Bill_User_Fiducia_Test"/>
+      <class name="DataProviderConcept.LoginUsingDataProvider"/>
+      <class name="com.Automationscripts_Fiducia.Generate_bill_user_test"/>
+      <class name="com.Automationscripts_Fiducia.Create_user_account_test"/>
+      <class name="com.Automationscripts_Fiducia.Update_quantity_inventory_test"/>
+      <class name="com.Automation_Admin_Fiducia.Generate_Bill_Admin_Fiducia_Test"/>
+      <class name="com.Automationscripts_Fiducia.Generate_bill_admin_fiducia_test"/>
+      <class name="com.Automationscripts_Fiducia.Create_product_Fiducia_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
